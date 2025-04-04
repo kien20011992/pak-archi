@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Temporal Nest
 
-## Getting Started
+Temporal Nest là một ứng dụng web được xây dựng bằng Next.js, tập trung vào việc hiển thị và quản lý thông tin bất động sản. Dự án sử dụng các công nghệ hiện đại và cung cấp trải nghiệm người dùng mượt mà.
 
-First, run the development server:
+## Công nghệ sử dụng
+
+- **Frontend Framework**: Next.js 15.2.4
+- **UI Library**: React 19
+- **Styling**: TailwindCSS
+- **Database**: Supabase
+- **Carousel**: Embla Carousel
+
+## Tính năng chính
+
+- Hiển thị danh sách bất động sản
+- Tìm kiếm và lọc bất động sản
+- Xem chi tiết bất động sản
+- Tích hợp bản đồ Google Maps
+- Giao diện responsive
+- Hiệu ứng carousel mượt mà
+
+## Cài đặt
+
+1. Clone repository:
+```bash
+git clone <repository-url>
+cd temporal-nest
+```
+
+2. Cài đặt dependencies:
+```bash
+npm install
+# hoặc
+yarn install
+```
+
+3. Tạo file môi trường:
+Tạo file `.env.local` và thêm các biến môi trường cần thiết:
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+## Phát triển
+
+Chạy server phát triển:
 
 ```bash
 npm run dev
-# or
+# hoặc
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mở [http://localhost:9000](http://localhost:9000) để xem kết quả.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cấu trúc thư mục
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                # App router và các trang
+├── components/         # React components
+├── lib/               # Utilities và configurations
+├── services/          # API services
+```
 
-## Learn More
+## Triển khai
 
-To learn more about Next.js, take a look at the following resources:
+Build ứng dụng cho production:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+# hoặc
+yarn build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Chạy ứng dụng ở môi trường production:
 
-## Deploy on Vercel
+```bash
+npm run start
+# hoặc
+yarn start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Đóng góp
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Mọi đóng góp đều được hoan nghênh. Vui lòng tạo issue hoặc pull request để đóng góp.
+
+## Giấy phép
+
+Dự án này được phân phối dưới giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.
