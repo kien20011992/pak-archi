@@ -27,7 +27,7 @@ const Header = () => {
         <div id="boneca" className="logo shrink-0">
           <Link href="/" title="PAK ARCHI">
             <Image 
-              src="https://pak-archi.com/public/files/info/logo_fill-6704e29b257e2.svg" 
+              src="/logo.png" 
               alt="PAK ARCHI"
               width={150}
               height={50}
