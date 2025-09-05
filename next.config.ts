@@ -5,8 +5,13 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'mqhome.com.vn',
+      },
+      {
+        protocol: 'https',
         hostname: 'pak-archi.com',
       },
+      
       {
         protocol: 'https',
         hostname: 'drive.google.com',

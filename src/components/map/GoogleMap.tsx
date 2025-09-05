@@ -59,14 +59,14 @@ export default function MapWithInfoBox() {
     <div className="relative w-full h-full">
       <iframe
         ref={iframeRef}
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.8880514756374!2d105.82983007596354!3d21.03703698061267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab145bf89bd7%3A0xd94a869b494c04b6!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1712188100000!5m2!1svi!2s&style=feature:all|element:labels|visibility:off&style=feature:administrative|element:geometry|visibility:off&style=feature:administrative.land_parcel|visibility:off&style=feature:administrative.neighborhood|visibility:off&style=feature:landscape|element:geometry.fill|color:0x000000&style=feature:poi|visibility:off&style=feature:road|element:geometry|color:0xffffff&style=feature:road|element:geometry.stroke|color:0x000000|weight:1&style=feature:transit|visibility:off&style=feature:water|element:geometry.fill|color:0x222222"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.0875420193845!2d105.82586662847315!3d21.018670450656938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab785690be19%3A0x9efffd4702af2106!2zNzQgTmcuIEdp4bq_bmcsIENo4bujIEThu6thLCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1757063586447!5m2!1svi!2s&style=feature:all|element:labels|visibility:off&style=feature:administrative|element:geometry|visibility:off&style=feature:administrative.land_parcel|visibility:off&style=feature:administrative.neighborhood|visibility:off&style=feature:landscape|element:geometry.fill|color:0x000000&style=feature:poi|visibility:off&style=feature:road|element:geometry|color:0xffffff&style=feature:road|element:geometry.stroke|color:0x000000|weight:1&style=feature:transit|visibility:off&style=feature:water|element:geometry.fill|color:0x222222"
         width="100%"
         height="100%"
         style={{ border: 0, filter: "grayscale(100%) contrast(150%) brightness(90%) invert(100%)" }}
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="PAK Architects location"
+        title="MQ Home location"
         className="w-full h-full"
         onLoad={handleIframeLoad}
       ></iframe>
@@ -80,12 +80,12 @@ export default function MapWithInfoBox() {
                       border-transparent border-t-black"
         ></div>
 
-        <h2 className="text-base mb-2">PAK architects</h2>
+        <h2 className="text-base mb-2">MQhome</h2>
         <ul className="space-y-2 text-xs">
           <li className="flex items-start leading-tight">
             <span className="mr-1.5">•</span>
             <div>
-              <p>Hotline: 0903315885</p>
+              <p>Hotline: 0354238871</p>
             </div>
           </li>
           <li className="flex items-start leading-tight">
@@ -93,7 +93,7 @@ export default function MapWithInfoBox() {
             <div>
               <p>
                 Email: <br />
-                thongtin.pak@gmail.com
+                mqhome.media@gmail.com
               </p>
             </div>
           </li>
@@ -102,7 +102,7 @@ export default function MapWithInfoBox() {
             <div>
               <p>
                 Address: <br />
-                Số 2 Ngõ 9, Đặng Thai Mai, Quảng An, Tây Hồ, Hà Nội
+                74 Ng. Giếng, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam
               </p>
             </div>
           </li>

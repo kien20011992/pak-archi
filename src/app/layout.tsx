@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pak Archi",
-  description: "Pak Archi - Architectural Design",
+  title: "MQhome",
+  description: "MQhome - Architectural Design",
 };
 
 export default function RootLayout({

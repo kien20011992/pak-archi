@@ -22,13 +22,13 @@ const Header = () => {
   return (
     <>
       {/* Desktop Header */}
-      <header className="header-desktop group hidden md:flex flex-col fixed top-0 left-0 z-40 transition-all duration-300 h-screen w-[210px] p-8 pt-6 bg-black/20 backdrop-blur-sm">
+      <header className="header-desktop group hidden md:flex flex-col fixed top-5 left-0 z-40 transition-all duration-300 h-screen w-[210px] p-8 pt-1 bg-black/20 backdrop-blur-sm">
         {/* Logo */}
         <div id="boneca" className="logo shrink-0">
-          <Link href="/" title="PAK ARCHI">
+          <Link href="/" title="MQ Home">
             <Image 
               src="/logo.png" 
-              alt="PAK ARCHI"
+              alt="MQ Home"
               width={150}
               height={50}
             />
@@ -36,7 +36,7 @@ const Header = () => {
         </div>
 
         <div ref={desktopMenuRef} className="menu-main-menu-container flex-1 overflow-y-auto mt-5 relative [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
-          <ul id="menu-main-menu" className="menu flex flex-col space-y-5 text-2xl text-white">
+          <ul id="menu-main-menu" className="menu flex flex-col space-y-5 text-xl text-white">
             <li className={`menu-item hover:text-red-500 [&>a]:text-current ${isActive('/houses')}`}>
               <Link href="/houses" title="Houses">Houses</Link>
             </li>
@@ -70,32 +70,32 @@ const Header = () => {
         {/* Language Menu and Social - Desktop */}
         <div className="mt-auto">
           <div className="social-wrapper flex space-x-3 mb-3">
-            <a className="" href="https://www.facebook.com/PAKarchi" target="_blank" rel="noopener noreferrer" title="Facebook">
-              <Image src="https://pak-archi.com/public/files/info/Frame_657-662772b998a90.png" alt="Facebook" width={24} height={24} />
+            <a className="" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
+              <Image src="https://drive.google.com/uc?export=view&id=1wMHMH3hFrmpOStzQjuUd_TGHPXn2MhBv" alt="Facebook" width={24} height={24} />
             </a>
-            <a className="" href="https://www.tiktok.com/@pak.architects" target="_blank" rel="noopener noreferrer" title="Tiktok">
-              <Image src="https://pak-archi.com/public/files/info/Frame_655-662772d314159.png" alt="Tiktok" width={24} height={24} />
+            {/* <a className="" href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" title="Tiktok">
+              <Image src="https://drive.google.com/uc?export=view&id=1XZ24y_bGLjP2Sgw2tlKPyOUBOVnRx70s" alt="Tiktok" width={24} height={24} />
+            </a> */}
+            <a className="" href="https://zalo.me/0354238871" target="_blank" rel="noopener noreferrer" title="Zalo">
+              <Image src="https://drive.google.com/uc?export=view&id=13pnJPHSIhNhF31pAtWrxjf4z3rvBN_m_"  alt="Zalo" width={24} height={24} />
             </a>
-            <a className="" href="https://zalo.me/0922813888" target="_blank" rel="noopener noreferrer" title="Zalo">
-              <Image src="https://pak-archi.com/public/files/info/Group_23-6642cf27c4707.png" alt="Zalo" width={24} height={24} />
-            </a>
-            <a className="" href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" title="Pinterest">
-              <Image src="https://pak-archi.com/public/files/info/Frame_654-662772ff22189.png" alt="Pinterest" width={24} height={24} />
-            </a>
+            {/* <a className="" href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" title="Pinterest">
+              <Image src="https://drive.google.com/uc?export=view&id=181eAMX9QHfkfIVP-VUc5GOdxpk8-U2fd" alt="Pinterest" width={24} height={24} />
+            </a> */}
           </div>
-          <ul className="language-chooser flex space-x-2">
-            {/* <li className="lang-pb">
+          {/* <ul className="language-chooser flex space-x-2">
+            <li className="lang-pb">
               <a href="" title="ENG">
                 <span>ENG</span>
               </a>
             </li>
-            <li className="line">|</li> */}
+            <li className="line">|</li>
             <li className="lang-en active">
               <a href="" title="VN">
                 <span>*VN</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </header>
 
@@ -146,7 +146,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="lang-menu p-10 flex flex-col items-center">
-          <ul className="language-chooser flex space-x-2">
+          {/* <ul className="language-chooser flex space-x-2">
             <li className="lang-pb">
               <a href="" title="ENG">
                 <span>ENG</span>
@@ -157,19 +157,19 @@ const Header = () => {
                 <span>VN</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           <div className="social-wrapper flex gap-4 mt-8">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
-              <Image src="https://pak-archi.com/public/files/info/Frame_657-662772b998a90.png" alt="Facebook" width={24} height={24} />
+              <Image src="https://drive.google.com/uc?export=view&id=1wMHMH3hFrmpOStzQjuUd_TGHPXn2MhBv" alt="Facebook" width={24} height={24} />
             </a>
             <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" title="Tiktok">
-              <Image src="https://pak-archi.com/public/files/info/Frame_655-662772d314159.png" alt="Tiktok" width={24} height={24} />
+              <Image src="https://drive.google.com/uc?export=view&id=1XZ24y_bGLjP2Sgw2tlKPyOUBOVnRx70s" alt="Tiktok" width={24} height={24} />
             </a>
             <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" title="Zalo">
-              <Image src="https://pak-archi.com/public/files/info/Group_23-6642cf27c4707.png" alt="Zalo" width={24} height={24} />
+              <Image src="https://drive.google.com/uc?export=view&id=13pnJPHSIhNhF31pAtWrxjf4z3rvBN_m_" alt="Zalo" width={24} height={24} />
             </a>
             <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" title="Pinterest">
-              <Image src="https://pak-archi.com/public/files/info/Frame_654-662772ff22189.png" alt="Pinterest" width={24} height={24} />
+              <Image src="https://drive.google.com/uc?export=view&id=181eAMX9QHfkfIVP-VUc5GOdxpk8-U2fd" alt="Pinterest" width={24} height={24} />
             </a>
           </div>
         </div>

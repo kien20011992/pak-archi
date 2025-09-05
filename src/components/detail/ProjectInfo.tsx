@@ -25,19 +25,19 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({ title, info, description  }) 
           <br />
           
           <div className="mb-3">
-            <p>PAK archi | Design & Build</p>
+            <p>MQ Home | Design & Build</p>
           </div>
           
           <div className="mb-3">
-            <p>• Hotline: 0922813888</p>
+            <p>• Hotline: 0354238871</p>
           </div>
           
           <div className="mb-3">
-            <p>• Văn phòng Hà Nội: 42 Ngõ 8 - Văn Phú - Hà Đông - Hà Nội</p>
+            <p>• Văn phòng Hà Nội: 74 Ng. Giếng, Chợ Dừa, Đống Đa, Hà Nội, Việt Nam</p>
           </div>
 
           <div className="mb-3">
-            <p>• Email: thietkepak@gmail.com</p>
+            <p>• Email: mqhome.media@gmail.com</p>
           </div>
         </div>
       </div>

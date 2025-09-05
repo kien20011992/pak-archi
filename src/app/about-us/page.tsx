@@ -24,10 +24,10 @@ export default function AboutUs() {
           <h1 className="text-3xl font-bold text-gray-300 mb-6">Chúng Tôi Là...</h1>
           <div className="text-gray-300 text-base space-y-4">
             <p>
-                “ PAK ARCHI “ được thành lập vào năm 2019 bởi KTS. NGUYỄN THÀNH PHƯƠNG. Là công ty Thiết Kế và Xây Dựng (Design & Build) chuyên nghiệp hoạt động tại thị trường Việt Nam và Quốc Tế. Đội ngũ thiết kế với những nhân sự trẻ tài năng, nhiệt huyết và sáng tạo, đội ngũ kỹ thuật và thi công dày dặn kinh nghiệm. Chúng tôi không chỉ mang tới những sản phẩm thiết kế và xây dựng tâm huyết, tỉ mỉ. Mà còn mang đến các cho khách hàng một giải pháp mang tính tổng thể. Giúp khách hàng có thể đảm bảo được độ chính xác về thẩm mỹ và thời gian từ khâu thiết kế cho đến thi công hoàn thiện. Khách hàng sẽ tiết kiệm được kinh phí từ các giải pháp thi công thực tế đã được định hình ngay từ những bước thiết kế đầu tiên và tiết kiệm được chi phí quản lí cho dự án.
+                <b>MQhome</b> là công ty thiết kế kiến trúc chuyên nghiệp, quy tụ đội ngũ kiến trúc sư dày dạn kinh nghiệm, giàu tư duy sáng tạo cùng kỹ thuật thi công chuẩn mực. Chúng tôi mang đến giải pháp thiết kế, thi công tổng thể, đảm bảo tính thẩm mỹ, tối ưu chi phí và đúng tiến độ từ ý tưởng đến công trình hoàn thiện.
             </p>
             <p>
-                Với triết lí lấy “con người” làm trung tâm và “thiên nhiên” là vỏ bọc mà ở bên trong nó con người được chữa lành và cảm thấy hạnh phúc. Chúng tôi luôn tạo ra những không gian mà ở đó ranh giới giữa con người và thiên nhiên được xóa nhòa, đưa con người về trạng thái thoải mái nhất và có những trải nghiệm đầy ắp những cảm xúc tích cực”. Và bằng những phương pháp nghiên cứu, sáng tác khoa học như ( nghiên cứu trên mô hình tỉ lệ 1/50 , DIAGRAM phân tích bối cảnh của dự án, khí hậu v....v ). Chúng tôi đưa ra những phương án mà ở đó không gian đạt được thẩm mỹ, cải thiện vi khí hậu bên trong và chứa đựng những câu chuyện, thông điệp thú vị trong cuộc sống.
+               Với triết lý lấy con người làm trung tâm, <b><u>MQhome</u></b> kiến tạo những không gian sống hài hòa, nơi con người tìm thấy sự thoải mái và cảm xúc tích cực. Thông qua nghiên cứu kỹ lưỡng và phương pháp thiết kế khoa học, chúng tôi tạo ra công trình bền vững, giàu tính thẩm mỹ và chứa đựng dấu ấn riêng cho từng khách hàng
             </p>
           </div>
         </div>
